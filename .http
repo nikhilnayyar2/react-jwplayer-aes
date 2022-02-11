@@ -1,0 +1,16 @@
+###
+GET https://cdn.jwplayer.com/libraries/BIFJrs7x.js
+
+###
+GET https://cdn.jwplayer.com/libraries/NyvPFH2q.js
+
+###
+GET http://localhost:3001/get-signed-url?url=https://cdn.jwplayer.com/manifests/7XyquCMc.m3u8
+
+
+###
+GET  https://cdn.jwplayer.com/manifests/7XyquCMc.m3u8?exp=1644490516&sig=b73f03bf1dbc9c2431c9ee678eaba3c3
+
+
+###
+GET https://cdn.jwplayer.com/manifests/7XyquCMc.m3u8?exp=1644498230&sig=11b14566355b4382404651675f4e5ad3

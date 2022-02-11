@@ -1,0 +1,7 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=490000,RESOLUTION=480x270,CODECS="mp4a.40.2,avc1.77.30",CLOSED-CAPTIONS=NONE
+https://videos-cloudflare.jwpsrv.com/62058abc_a64ffd44c8bb6cc1b0a79428f4e80a5b2d721e51/content/conversions/Ux8FajpR/videos/tBY5UDN3-32240523.mp4.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=360000,RESOLUTION=320x180,CODECS="mp4a.40.2,avc1.77.30",CLOSED-CAPTIONS=NONE
+https://videos-cloudflare.jwpsrv.com/62058abc_980748e6fec9b44afb36cccf4c94c7d6ef40cdcc/content/conversions/Ux8FajpR/videos/tBY5UDN3-32240522.mp4.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=120000,CODECS="mp4a.40.2"
+https://videos-cloudflare.jwpsrv.com/62058abc_9156877a0081b0dcebe8cd2dccb80bb29f486e15/content/conversions/Ux8FajpR/videos/tBY5UDN3-32240527.m4a.m3u8

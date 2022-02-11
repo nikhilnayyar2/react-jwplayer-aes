@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "https://cdn.jwplayer.com/libraries/NyvPFH2q.js";
+// import "https://cdn.jwplayer.com/libraries/BIFJrs7x.js"
+import { useEffect } from "react";
 
 function App() {
+  useEffect(async () => {
+    const manifestUrl = "https://cdn.jwplayer.com/manifests/7XyquCMc.m3u8";
+    const res = await fetch(
+      `http://localhost:3001/get-signed-url?url=${manifestUrl}`
+    );
+    const url = (await res.text()).trim();
+
+    window.jwplayer("myElement").setup({
+      playlist: [{ file: url }],
+    });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="myElement"></div>
     </div>
   );
 }
